@@ -1,11 +1,11 @@
 # Star-wars-api
 
-###Build Project
+### Build Project
 ```bash
 $ npm install
 $ npm install -g serverless
 ```
-###Configure Project
+### Configure Project
 Configurar las varibales del .env con sus respectivas keys
 ```bash
 ##.env
@@ -19,7 +19,7 @@ DYNAMO_SECRET_KEY: <Coloca Secret Key de AWS Aqui>
 DYNAMO_REGION: <Coloca la region aqui>
 ```
 
-###Deploy Project
+### Deploy Project
 ```bash
 $ serverless deploy
 ```
